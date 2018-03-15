@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+img{
+	border: 0px;
+}
+a{
+	text-decoration: none;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #fff;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.hide{
+	display: none;
+}
+.wrap{
+	width: 100%;
+	background: url(../img/bg.jpg);
+	background-size: 100%;
+	overflow: hidden;
+}
+.nav{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: 99;
+}
+.line1{
+	position: absolute;
+	width: 100%;
+	margin-top: 16%;
+	z-index: 15;
+}
+.nav a{
+	display: block;
+	width: 50%;
+	height: 100%;
+	position: absolute;
+}
+.jr{
+	background: url(../img/nav_btn.png) no-repeat;
+	background-size: 200%;
+	left: -50%;
+}
+.jr1{
+	left: 0;
+}
+.xz{
+	left: 100%;
+	background: url(../img/nav_btn.png) no-repeat;
+	background-size: 200%;
+	background-position: top right;
+}
+.xz1{
+	left: 50%;
+}
+.logo{
+	display: block;
+	width: 40%;
+	position: fixed;
+	left: 30%;
+	top: 100%;
+	z-index: 50;
+}
+
+.fullyear{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 28%;
+}
+.slogan{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.come_btn{
+	display: block;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 5%;
+	position: relative;
+}
+.come_btn img{
+	width: 100%;
+}
+.come_btn img.figure{
+	display: block;
+	width: 70%;
+	position: absolute;
+	left: 50%;
+	top: -8%;
+	z-index: 55;
+}
+.arrow{
+	display: block;
+	width: 10%;
+	margin-left: 45%;
+	margin-top: 5%;
+}
+.timeline{
+	width: 100%;
+	overflow: auto;
+	background: url(../img/line.png) repeat-y;
+	background-position: top center;
+	padding-bottom: 200px;
+	overflow: hidden;
+}
+.timeline li{
+	list-style: none;
+	width: 100%;
+	height: 100px;
+	font-size: 0;
+	margin-top: 20%;
+	position: relative;
+}
+.li_l,.li_r{
+	width: 45%;
+	height: 100%;
+	position: absolute;
+	font-size: 16px;
+	color: #dfc783;
+}
+.li_l{
+	text-align: right;
+	font-family: '宋体';
+	line-height: 40px;
+	left: -45%;
+}
+.li_l span{
+	font-size: 30px;
+	font-family: '宋体';
+	font-weight: bold;
+	margin-left: 5px;line-height: 40px;
+}
+.dot{
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	left: 45%;
+	text-align: center;
+}
+.dotimg{
+	display: inline-block;
+	width: 0px;
+	margin-top: 10px;
+}
+.dotimg1{
+	width: 15px;
+}
+.animate{
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.li_r{
+	width: 40%;
+	right: -50%;
+}
+.li_r span{
+	font-weight: bold;
+}
+.li_l1{
+	left: 0;
+}
+.li_r1{
+	right: 5%;
+}
+.loading{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: #000;
+	z-index: 99;
+}
+.loading p{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+/**********************************************************************/
+.main{
+	width: 100%;
+	height: 100%;
+	background: #0f1e27;
+	position: fixed;
+	overflow: hidden;
+}
+.main > div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	overflow: hidden;
+	z-index: 10;
+}
+.logo1{
+	position: absolute;
+	display: block;
+	width: 40%;
+	top: 0;
+	left: 30%;
+	z-index: 10;
+}
+.c_title{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.middle{
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.group1{
+	left: 17%;
+	margin-top: -200%;
+}
+.group11{
+	margin-top: -10%;
+}
+.group2{
+	left: 40%;
+	margin-top: -200%;
+}
+.group21{
+	margin-top: -3%;
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+.group3{
+	left: 63%;
+	margin-top: -200%;
+}
+.group31{
+	margin-top: 4%;
+	-webkit-transition-delay: 1s;
+	-moz-transition-delay: 1s;
+	-o-transition-delay: 1s;
+	transition-delay: 1s;
+}
+.lunbo{
+	width: 100%;
+	margin-top:-20%;
+}
+.swiper-container {
+    width: 50%;
+    margin: 0px auto;
+}
+.swiper-slide,.name{
+    text-align: center;
+    font-size: 14px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+.swiper-slide img{
+	width: 100%;
+}
+.swiper-button-prev{
+	background: url(../img/left.png) no-repeat;
+	background-size: 100%;
+}
+.swiper-button-next{
+	background: url(../img/right.png) no-repeat;
+	background-size: 100%;
+}
+.userID{
+	display: block;
+	width: 50%;
+	margin-left: 25%;
+	height: 30px;
+	background: url(../img/id_bg.png) no-repeat;
+	background-size: 100% 100%;
+	border: 0;
+	border-radius: 0;
+	font-size: 18px;
+	color: #dec682;
+	text-align: center;
+	margin-top: 15%;
+}
+.xy{
+	width: 60%;
+	height: 45px;
+	margin-left: 15%;
+	background: url(../img/xy_bg.png) no-repeat;
+	background-size: 100% 100%;
+	border: 0;
+	border-radius: 0;
+	padding: 3%;
+	font-size: 16px;
+	color: #dec682;
+	margin-bottom: 100px;
+	margin-top: 33%;
+}
+.make{
+	width: 34%;
+	margin-left: 33%;
+	margin-top: 50%;
+}
+.maked{
+	width: 100%;
+	margin-top: 0%;
+}
+.again{
+	width: 25%;
+	left: 11%;
+	margin-top: 50%;
+	z-index: 10;
+}
+.saveImg{
+	width: 25%;
+	left: 38%;
+	margin-top: 50%;
+	z-index: 10;
+}
+.shareBtn{
+	width: 25%;
+	left: 65%;
+	margin-top: 50%;
+	z-index: 10;
+}
+.group{
+	z-index: 10;
+}
+.name{
+	width: 24px;
+	height: 80px;
+	background: url(../img/name_bg.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: -14%;
+	z-index: 15;
+	left: 67%;
+	color: #fbf69d;
+	line-height: 14px;
+}
+.sharePage{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9999;
+	background: rgba(0,0,0,0.9);
+	display: none;
+}
+.sharePage img{
+	width: 100%;
+}
